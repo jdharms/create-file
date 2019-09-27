@@ -1,5 +1,5 @@
-  name: 'Create file from Secret'
-  description: 'Github Action to create a file with Github Secrets'
+  name: 'Create File'
+  description: 'Github Action to create a file from environment variables or Github Secrets'
   author: 'Daniel Harms'
   inputs:
     file_name:
