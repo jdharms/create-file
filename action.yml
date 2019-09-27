@@ -1,0 +1,11 @@
+  name: 'Create file from Secret'
+  description: 'Github Action to create a file with Github Secrets'
+  author: 'Daniel Harms'
+  inputs:
+    file_name:
+      description: 'The filename to be created'
+    file_contents:
+      description: 'Contents to write to file'
+  runs:
+    using: 'docker'
+    image: 'Dockerfile'
